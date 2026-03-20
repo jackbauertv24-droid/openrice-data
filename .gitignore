@@ -7,11 +7,20 @@ dist/
 # Environment
 .env
 .env.local
+.env.example
 
-# Output (keep JSON data files)
-output/*.png
-logs/*.png
-logs/*.log
+# Source files (internal)
+src/
+
+# Config files
+tsconfig.json
+package.json
+package-lock.json
+
+# Logs and debug
+logs/
+*.log
+*.png
 
 # IDE
 .idea/
@@ -23,6 +32,15 @@ logs/*.log
 .DS_Store
 Thumbs.db
 
-# Debug
-*.log
-*.png
+# Claude
+.claude/
+
+# Progress notes
+PROGRESS.md
+
+# Output files we don't need
+output/openrice-causeway-bay.json
+output/openrice-island-line-final.json
+output/openrice-island-line.json
+output/openrice-test-results.json
+output/products-*.json
