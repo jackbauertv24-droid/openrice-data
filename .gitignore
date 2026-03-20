@@ -17,6 +17,9 @@ tsconfig.json
 package.json
 package-lock.json
 
+# Scraper scripts (keep local only)
+scrape-*.ts
+
 # Logs and debug
 logs/
 *.log
